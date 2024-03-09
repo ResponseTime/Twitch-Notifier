@@ -1,0 +1,21 @@
+{
+  "name": "twitch-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "node-notifier": "^10.0.1",
+    "tmi.js": "^1.8.5",
+    "ts-node": "^10.9.2"
+  }
+}
